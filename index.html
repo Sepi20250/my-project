@@ -9,14 +9,18 @@
   <meta name="google-site-verification" content="eIqOypCG2LKyDLPdKROGvWo79_T2tNdqdO-DbBHqFkk" />
   <title>Vaadeh3</title>
   <style>
-        body{
-            background: red;
-            
+        body {
+      background: #ff0000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Vazir', sans-serif;
         }
         p{
             color: rgb(0, 211, 0);
             text-align: center;
-            font-size: 130px;
+            font-size: 100px;
         }
         h1{
             text-align: center;
@@ -24,13 +28,24 @@
             
 
         }
-        button{
-            border-radius: 70px;
-            border: 6px solid white;
-            background: rgb(0, 211, 0);
-            padding:10px;
-            font-size:30px;
-        }
+        .graphic-button {
+      padding: 15px 30px;
+      font-size: 25px;
+      font-weight: bold;
+      color: red;
+      background: linear-gradient(135deg, #e5ff00, #00ee34);
+      border: none;
+      border-radius: 100px;
+      cursor: pointer;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.397);
+      transition: all 0.3s ease;
+    }
+
+    .graphic-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    }
+        
         div{
             text-align: center;
         }
@@ -40,8 +55,9 @@
         }
         .footer{
             font-size: 20px;
-            color: whitesmoke;
+            color: white;
         }
+
     </style>
 </head>
 <body>
@@ -49,8 +65,9 @@
         <h2>به نام خدا</h2>
         <p>وعده صادق</p>
     <h1>حملات گسترده وعده صادق3،با فرماندهی رهبری معظم جمهوری انقلاب اسلامی ایران شکل گرفته است.</h1>
-    <button>برای دریافت اطلاعات بیشتر اینجا رو کلیک کن.</button>
+    <a href="./vadeh.html" target="_blank"><button class="graphic-button">برای دریافت اطلاعات بیشتر اینجا رو کلیک کن.</button></a>
     <p class="footer">تهیه شده توسط :سپهر جعفری</p>
+    
     </div>
 </body>
 </html>
